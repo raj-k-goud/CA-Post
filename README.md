@@ -4,7 +4,7 @@
 Compose NavHost:  to navigate from screen 1 to 2 and User Data is passed back to screen 1
 
 Set User Data:  NavHostController.previousBackStackEntry?.savedStateHandle?.set(
-                "key1", <User>)
+                "kEY", <User>)
 
 Get User Data:  NavBackStackEntry.savedStateHandle.get<User>(KEY)?: null  
 
